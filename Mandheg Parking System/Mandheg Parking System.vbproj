@@ -80,6 +80,30 @@
       <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMember.Designer.vb">
+      <DependentUpon>MasterMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterPayment.Designer.vb">
+      <DependentUpon>MasterPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterVehicle.Designer.vb">
+      <DependentUpon>MasterVehicle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterVehicle.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModuleKoneksi.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -100,6 +124,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMember.resx">
+      <DependentUpon>MasterMember.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
